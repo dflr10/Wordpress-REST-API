@@ -19,7 +19,7 @@ function getSiteData() {
   fetch(SITE)
     .then((res) => (res.ok ? res.json() : Promise.reject(res)))
     .then((json) => {
-      console.log(json);
+      //console.log(json);
       $site.innerHTML = `
       <h3>Sitio Web</h3>
       <h2>
@@ -41,7 +41,7 @@ function getPosts() {
   fetch(`${POSTS}&page=${page}&per_page=${perPage}`)
     .then((res) => (res.ok ? res.json() : Promise.reject(res)))
     .then((json) => {
-      console.log(json);
+      //console.log(json);
       json.forEach((el) => {
         let categories = "",
           tags = "";
