@@ -1,0 +1,122 @@
+html {
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+}
+
+a {
+  font-size: 2rem;
+  color: #01579b;
+  transition: all 0.3s ease-out;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.75;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h3 {
+  margin: auto;
+  padding: 25px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.6rem;
+  font-weight: normal;
+}
+
+hr {
+  border: thin solid #01579b;
+  margin: 3rem auto;
+  width: 80%;
+}
+
+.header {
+  width: 100%;
+  display: block;
+  margin: auto;
+  color: whitesmoke;
+  background-color: #21759d;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.site {
+  margin: 1rem auto;
+  padding: 1rem;
+  max-width: 50%;
+  text-align: center;
+}
+
+.post {
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  max-width: 80%;
+  text-align: center;
+  background-color: #eceff1;
+}
+
+.post-author img {
+  border-radius: 50%;
+}
+
+.post-date {
+  margin: 1rem auto;
+  display: block;
+}
+
+.post-excerpt,
+.post-categories,
+.post-tags,
+.post-content {
+  text-align: left;
+}
+
+.post-content summary {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.post-content > article {
+  padding: 1rem;
+  background-color: #e3f2fd;
+}
+
+.post-content img {
+  display: block;
+  margin: auto;
+}
+
+.wp-block-video video {
+  width: 550px;
+  display: block;
+  margin: auto;
+}
+
+code {
+  width: 200px;
+  font-size: 12px;
+}
+
+.loader {
+  display: none;
+  margin: 2rem auto;
+}
