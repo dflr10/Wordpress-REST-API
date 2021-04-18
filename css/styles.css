@@ -48,6 +48,10 @@ hr {
   width: 80%;
 }
 
+details {
+  cursor: pointer
+}
+
 .header {
   width: 100%;
   display: block;
